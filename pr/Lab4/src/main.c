@@ -49,12 +49,12 @@ int main()
 	const double *x;
 	double *result;
 	
-	scanf("%lf", &v);
+	//scanf("%lf", &v);
 	x=&w;
 	result=&v;
 
 	f(x, result);
-	printf("%lf\n", v);
+	//printf("%lf\n", v);
 	printf("%d\n", size);
 
 	writeArray(&arr, size);
